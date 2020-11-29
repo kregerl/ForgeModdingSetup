@@ -1,0 +1,29 @@
+	modLoader="javafml"
+	loaderVersion="[31,)"
+	license="MIT"
+	
+[[mods]]
+	modId="id_placeholder"
+	version="1.0"
+	displayName="placeholder"
+	displayURL=""
+	issueTrackerURL=""
+	logoFile=""
+	credits=""
+	authors="AreUThreateningMe"
+	description='''
+'''
+
+[[dependencies.id_placeholder]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.id_placeholder]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="AFTER"
+    side="BOTH"
